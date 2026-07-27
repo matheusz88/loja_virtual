@@ -1,0 +1,37 @@
+{
+  "name": "loja-virtual",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Aplicação para o Projeto final da disciplina Codificação para Backend, loja virtual.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilviaKoltun/loja-virtual.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilviaKoltun/loja-virtual/issues"
+  },
+  "homepage": "https://github.com/SilviaKoltun/loja-virtual#readme",
+  "dependencies": {
+    "@prisma/adapter-better-sqlite3": "^7.9.1",
+    "@prisma/adapter-pg": "^7.9.1",
+    "@prisma/client": "^6.19.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.2.0",
+    "pg": "^8.22.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.20.0",
+    "nodemon": "^3.1.14",
+    "prisma": "^6.19.3"
+  }
+}

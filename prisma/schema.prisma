@@ -1,0 +1,15 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model produto {
+  id           Int     @id @dafault(autoincrement())
+  nome        String
+  preco       Float
+  disponivel  Boolean @default(true)
+}
+  
